@@ -1,0 +1,91 @@
+{
+  "name": "OpenEplatform.External",
+  "description": "Library for actions in the external Open ePlatform, the platform that has cases from citizens.",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "Open.Hierarchy": "1.8.1",
+    "UiPath.Credentials.Activities": "1.1.6479.13204",
+    "UiPath.Excel.Activities": "2.7.2",
+    "UiPath.Mail.Activities": "1.7.2",
+    "UiPath.System.Activities": "20.4.0",
+    "UiPath.UIAutomation.Activities": "20.4.1",
+    "UiPath.WebAPI.Activities": "1.4.5"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.4.0",
+  "projectVersion": "2.0.8",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": [
+        "Private/GetAppCredentials.xaml",
+        "Test/Login_Test.xaml",
+        "Private/InitAllSettings.xaml",
+        "Case List/Get First Case.xaml",
+        "Case/Download PDF And XML.xaml",
+        "Private/OpenDialog.xaml",
+        "Test/GetCases_Test.xaml",
+        "Case/Download XML.xaml",
+        "Case/Get Changed Handläggare.xaml",
+        "Test/UploadFile_Test.xaml",
+        "Test/FilterQueueAndGetCases_Test.xaml",
+        "Case/Close Case.xaml",
+        "Case/Open Case.xaml",
+        "Test/ChangeCaseStatus_Test.xaml",
+        "Test/GetCasesREST_Test.xaml",
+        "Test/SetManagersSOAP_Test.xaml",
+        "Test/GetManagers.xaml",
+        "Test/GetManagersSOAP_Test.xaml",
+        "Test/SetStatusSOAP_Test.xaml",
+        "Test/AddEventSOAP_Test.xaml",
+        "Test/AddMessageSOAP_Test.xaml",
+        "Test/AddInternalMessageSOAP_Test.xaml",
+        "API/Callback Integration/Add Event.xaml",
+        "API/Callback Integration/Add Internal Message.xaml",
+        "API/Callback Integration/Add Message.xaml",
+        "API/Callback Integration/Get Managers.xaml",
+        "API/Callback Integration/Set Managers.xaml",
+        "API/Callback Integration/Set Status.xaml",
+        "API/REST/Get Case Events.xaml",
+        "API/REST/Get Case Status.xaml",
+        "API/REST/Get Case XML or PDF.xaml",
+        "API/REST/Get Cases By Attribute.xaml",
+        "API/REST/Get Cases By FamilyID (Not Version Specific).xaml",
+        "API/REST/Get Cases By FlowID (Version Specific).xaml",
+        "Test/GetXMLData_Test.xaml",
+        "Test/Login_Test - Copy (1).xaml",
+        "Test/ChangeContent_Test.xaml"
+      ]
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
